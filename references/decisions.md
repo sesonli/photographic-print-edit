@@ -37,7 +37,7 @@
 以下公开项目为方法调研提供了启发。本分享版使用重新整理的决策规则与概括示例，不附带第三方 Skill 全文或私人样片；使用这些项目的代码、素材或具体实现前，应另行检查其版本与许可。
 
 - [photo-cull-retouch](https://github.com/dudachun/photo-cull-retouch)：按原片编号组织编辑任务和交付；由此补充“张数正确仍须核对内容对应”的验收。
-- [photo-editing-craft](https://github.com/aipiratesmunich/photo-editing-craft)：几何、画框、局部与输出之间的依赖关系。
+- [photo-editing-craft，448f34f](https://github.com/aipiratesMunich/photo-editing-craft/tree/448f34fc8e53f406e8c002cf061c0471fe6030c2)：按任务路由到专门参考资料，用局部指标辅助检查；beta 沿用“测量与视觉验收分开”的方法，不依赖其特定编辑后端。
 - [Lightweft](https://github.com/sheldonxxxx/lightweft)：从观看顺序与真实反馈发展修图意图。
-- [Codex photo editing skills](https://github.com/Sancerio/codex-photo-editing-skills)：受限选区、身份保护和最终导出复核。
+- [Codex photo editing skills，be3bc67](https://github.com/Sancerio/codex-photo-editing-skills/tree/be3bc673ea4da399bf066b9da2329877923d8f10/skills/identity-safe-photo-retouching)：区分原片、生成候选、局部合成与验收版本；beta 借鉴显式保护范围及真实像素检查，不照搬自动缩放或无保护区时的默认通过逻辑。
 - [Photo edit analysis](https://github.com/pfrederiksen/photo-edit-analysis)：用具体色块、线条和视线入口诊断画面。
