@@ -1,0 +1,4 @@
+interface:
+  display_name: "摄影精修"
+  short_description: "围绕观看意图精修摄影照片，控制局部 AI 范围，逐图验收并另存成片"
+  default_prompt: "使用 $photographic-print-edit，按我的修改要求精修这些照片，保留指定主体与细节，逐图验收并另存成片。"
